@@ -1,2 +1,2 @@
-Projeto criado em grupo pela Proz.
-Trabalho em equipe, onde contrui essa página.
+Projeto criado em equipe Games em Pauta,
+onde criei esta página.
