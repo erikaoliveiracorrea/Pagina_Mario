@@ -159,7 +159,7 @@ const resetGame = () => {
   pipe.style.left = "";
   mario.style.animation = "";
   mario.style.bottom = "";
-  mario.src = "img/erika/mario.gif"; // VOLTAR IMAGEM ORIGINAL DO MARIO
+  mario.src = "/img/erika/mario.gif"; // VOLTAR IMAGEM ORIGINAL DO MARIO
   mario.style.width = "150px";
   mario.style.marginLeft = "0";
   range.style.display = "none";
@@ -229,7 +229,7 @@ btnJogar.addEventListener("click", () => {
 
       mario.style.animation = "none";
       mario.style.bottom = `${marioPosition}px`;
-      mario.src = "img/erika/game-over.png";
+      mario.src = "/img/erika/game-over.png";
       mario.style.width = "75px";
       mario.style.marginLeft = "50px";
 
