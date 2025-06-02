@@ -107,6 +107,15 @@ header {
   padding-block: 16px;
   text-decoration: none;
 }
+.opcoesUser .btn-sair {
+  color: white;
+  padding: 3px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
 /*---MENU DE MOBILE--------*/
 /*---BOTÃO--*/
 #btn-menu {
@@ -510,7 +519,7 @@ legend {
   text-align: center;
   text-indent: 0;
   white-space: nowrap;
-  margin: 5px;
+  padding-top: 5px;
 }
 
 .textoreview,
@@ -2054,14 +2063,15 @@ footer {
     margin: 10px 0;
   }
   .tituloreview {
-    margin-top: 1.2rem;
+    padding-bottom: 10px;
     text-align: center;
+    font-size: 19px;
   }
   .textoreview {
     width: 100%;
     line-height: normal;
     letter-spacing: 0.7px;
-    font-size: 1.3rem;
+    font-size: 19px;
   }
 
   .livre h1 {
