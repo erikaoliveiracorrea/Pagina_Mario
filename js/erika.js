@@ -229,7 +229,7 @@ btnJogar.addEventListener("click", () => {
 
       mario.style.animation = "none";
       mario.style.bottom = `${marioPosition}px`;
-      mario.src = "/img/erika/game-over.png";
+      mario.src = "/img/erika/game-over.webp";
       mario.style.width = "75px";
       mario.style.marginLeft = "50px";
 
