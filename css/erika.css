@@ -6,8 +6,9 @@
 }
 
 body {
-  background-image: url(/img/erika/BGGalaxia\ 3.webp);
-  background-attachment: scroll;
+  /* background-image: url(/img/erika/BGGalaxia\ 3.webp); */
+  /* background-attachment: scroll; */
+  background-color: black;
   background-size: 100vw;
   display: flex;
   flex-direction: column;
