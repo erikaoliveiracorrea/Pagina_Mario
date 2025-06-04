@@ -6,7 +6,8 @@
 }
 
 body {
-  background-color: #150a22;
+  /* background-color: #150a22; */
+  background-image: url(/img/erika/céu-darck4.webp);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -604,21 +605,15 @@ legend {
   height: 1000px;
   width: calc(75% - 20px);
   min-width: 600px;
-  margin: 10px;
-  display: block;
-  flex-direction: column;
-  flex-wrap: wrap;
   position: relative;
   background: linear-gradient(145deg, blue 10%, red 80%);
 }
 
 .livre h1 {
-  width: 400px;
-  margin: auto;
+  text-align: center;
   font-size: 37px;
   font-family: "Sora", sans-serif;
   color: #f51e1e;
-  text-align: center;
   text-shadow: 0px 3px 5px white;
 }
 
@@ -630,7 +625,7 @@ legend {
 .livre .artigo-segala {
   width: 66%;
   height: auto;
-  margin: 0 0 0 35px;
+  margin-left: 35px;
   position: relative;
 }
 
@@ -677,7 +672,7 @@ legend {
 }
 
 .livre h2 {
-  margin: 10px 0;
+  padding: 10px 0;
   font-family: "Sora", sans-serif;
   font-size: 30px;
   font-weight: bold;
@@ -1894,8 +1889,8 @@ footer {
     top: 50px;
     left: 40px;
   }
+  .small-review,
   .small-livre {
-    margin: 0;
     font-size: 17px;
   }
 }
@@ -1906,16 +1901,17 @@ footer {
     height: 230px;
     position: relative;
   }
-}
-
-@media screen and (max-width: 700px) {
-  .livre .introducao_p {
+  .livre .artigo-segala {
     width: 95%;
+    margin: 0 auto;
+  }
+  .livre .introducao_p {
     margin: 10px auto;
-    padding: 0 5px;
+    padding: 5px 10px;
     font-size: 25px;
   }
 }
+
 @media screen and (min-width: 751px) and (max-width: 1135px) {
   .livre .img_mario-estrela {
     width: 28%;
@@ -2012,6 +2008,7 @@ footer {
     font-size: 1rem;
   }
 }
+
 @media screen and (max-width: 600px) {
   header {
     display: flex;
@@ -2070,13 +2067,6 @@ footer {
     line-height: normal;
     letter-spacing: 0.7px;
     font-size: 19px;
-  }
-
-  .livre h1 {
-    font-size: 40px;
-  }
-  .livre h2 {
-    font-size: 35px;
   }
 
   .livre .box_historia-mario blockquote {
