@@ -6,8 +6,7 @@
 }
 
 body {
-  /* background-color: #150a22; */
-  background-image: url(/img/erika/céu-darck4.webp);
+  background-color: #150a22;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1891,7 +1890,7 @@ footer {
   }
   .small-review,
   .small-livre {
-    font-size: 17px;
+    white-space: wrap;
   }
 }
 
