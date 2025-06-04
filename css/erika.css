@@ -6,10 +6,7 @@
 }
 
 body {
-  background-image: url(/img/erika/BGGalaxia\ 3.png);
-  /* background-color: #140921; */
-  background-attachment: scroll;
-  /* background-size: 100vw; */
+  background-color: #150a22;
   display: flex;
   flex-direction: column;
   align-items: center;
