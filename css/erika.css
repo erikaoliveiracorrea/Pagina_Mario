@@ -7,7 +7,7 @@
 
 body {
   background-image: url(/img/erika/BGGalaxia\ 3.png);
-  /* background-attachment: scroll; */
+  background-attachment: scroll;
   background-color: black;
   background-size: 100vw;
   display: flex;
