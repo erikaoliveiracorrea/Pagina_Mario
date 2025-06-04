@@ -2117,48 +2117,35 @@ footer {
     height: 250px;
     width: 100%;
   }
-  /*.box-animation .img-mario_espiando {
-    animation: none;
-  }
-  .box-animation .img-vento {
-    animation: none;
-  }
-  .box-animation .amarelo {
-    animation: none;
-  }*/
+
   .box-animation .star {
     top: 50px;
-    /* animation: none; */
   }
+
   .box-animation .estrelas {
     top: 70px;
   }
-  /*.box-animation .fantasma1 {
-    animation: none;
-  }
-  .box-animation .fantasma3 {
-    animation: none;
-  }*/
+
   .box-animation .fantasma2 {
     top: 30px;
     left: 150px;
-    /* animation: none; */
   }
+
   .box-animation .coin {
     top: 30px;
-    /* animation: none; */
   }
+
   .box-animation .princesa {
     display: none;
   }
   .box-animation .mush {
     bottom: 60px;
-    /* animation: none; */
   }
+
   .box-animation .pipe {
     left: 180px;
-    /* animation: none; */
   }
+
   .box-animation .tijolinho-horizontal {
     left: 130px;
     bottom: 60px;
