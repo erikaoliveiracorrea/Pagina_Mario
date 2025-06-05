@@ -12,25 +12,27 @@
   .cardreview {
     min-width: 0;
     height: auto;
-    margin: 10px;
+    padding: 10px;
+  }
+
+  .cortaconteudo {
+    width: 100%;
+    height: 100%;
+    padding: 0;
   }
   .reviewItens {
-    padding: 0 5px;
     height: auto;
   }
 
   .textoreview {
+    width: 100%;
     font-size: 17px;
     margin: 0;
   }
   .rodape p {
     font-size: 20px;
   }
-  .cortaconteudo {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-  }
+
   .livre {
     height: auto;
     margin: 0 auto;
@@ -85,26 +87,16 @@
   .box_exemplo2 q {
     font-size: 1.5rem;
   }
-  .containerreview {
-    width: 100%;
-    /* margin: 10px auto; */
-  }
 }
-@media screen and (max-width: 1030px) {
-  /* .cardreview {
-    width: 100%;
-  } */
-}
+
 @media screen and (max-width: 900px) {
-  .containernoticiatitulo {
-    width: 95%;
-    margin: 0 auto;
-  }
   .cardreview {
     width: 100%;
   }
+  .reviewItens {
+    align-items: center;
+  }
   .textonoticia {
-    font-size: 1.4rem;
     line-height: 21px;
     letter-spacing: 1px;
   }
@@ -156,17 +148,6 @@
     width: 280px;
     top: 50px;
     left: 40px;
-  }
-  .small-review,
-  .small-livre {
-    width: 100%;
-    font-size: 16px;
-    display: block;
-    white-space: wrap;
-    text-indent: 0;
-    text-align: justify;
-    padding: 5px;
-    margin: 0;
   }
 }
 
@@ -258,15 +239,15 @@
   }
 }
 @media screen and (min-width: 601px) and (max-width: 900px) {
-  .reviewItens img {
-    width: 100%;
-    height: 155px;
-  }
   .tituloreview {
     margin-top: 0.5rem;
     text-align: center;
-    font-size: 2.3rem;
     letter-spacing: 1px;
+  }
+  .reviewItens img {
+    width: 250px;
+    height: 140px;
+    margin: 0;
   }
 }
 @media screen and (min-width: 601px) and (max-width: 760px) {
@@ -304,8 +285,16 @@
   .reviewItens img {
     width: 100%;
     height: 280px;
-    margin: 0 auto;
   }
+  /* .picture_reviewItens {
+    width: 100%;
+    height: 280px;
+  }
+  .picture_reviewItens img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  } */
   .containernoticia {
     gap: 20px;
   }
