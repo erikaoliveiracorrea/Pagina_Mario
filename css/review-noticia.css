@@ -1,0 +1,141 @@
+/*--INÍCIO DA PÁG, MÁRIO---*/
+.principal {
+  background-color: #dbdbdb10;
+  height: 100%;
+  width: 1240px;
+  max-width: 1240px;
+  margin: 0 100px;
+  min-width: 620px;
+  box-shadow: 4px 0px 4px #00000050, -4px 0px 4px #00000050;
+}
+
+.containerreview {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Cards de review */
+.cardreview {
+  background-color: #dbdbdb10;
+  height: 230px;
+  width: calc(50% - 20px);
+  min-width: 400px;
+  margin: 10px;
+  box-shadow: 2px 4px 4px #00000050;
+}
+
+.cortaconteudo {
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  overflow: hidden;
+}
+
+.reviewItens {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  gap: 10px;
+}
+
+.reviewItens img {
+  width: 120px;
+  height: 140px;
+  margin-top: 1rem;
+}
+
+.tituloreview {
+  font-size: 1.5rem;
+  text-shadow: 0.1rem 0.1rem #00000040;
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+  color: #dbdbdb;
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.small-review {
+  display: block;
+  text-align: center;
+  text-indent: 0;
+  white-space: nowrap;
+  padding-top: 5px;
+}
+.textoreview {
+  height: auto;
+  text-indent: 45px;
+}
+.textoreview,
+.textonoticia {
+  margin-top: 1rem;
+  font-size: 18px;
+  text-align: justify;
+  text-shadow: 0.1rem 0.1rem #00000040;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #dbdbdb;
+}
+
+.containernoticiatitulo {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.containernoticia {
+  height: 240px;
+  width: calc(50% - 20px);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  min-width: 400px;
+  margin: 10px;
+}
+
+/* Cards de notícias */
+.cardnoticia {
+  background-color: #dbdbdb10;
+  height: 240px;
+  width: calc(50% - 10px);
+  min-width: 160px;
+  box-shadow: 2px 4px 4px #00000050;
+}
+
+.cardnoticia img {
+  width: 100%;
+  height: 100px;
+}
+
+.titulo {
+  height: 240px;
+  width: calc(50% - 20px);
+  margin: 10px;
+  min-width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo img {
+  width: 100%;
+  height: 250px;
+  animation: imagemMario 3s ease-in-out;
+}
+
+@keyframes imagemMario {
+  0% {
+    height: 0px;
+    width: 0px;
+    transform: rotateZ(720deg);
+  }
+  65% {
+    height: 100%;
+    width: 60%;
+  }
+}

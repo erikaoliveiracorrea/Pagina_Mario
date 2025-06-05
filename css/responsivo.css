@@ -1,0 +1,460 @@
+/*------- RESPONSIVE BREAKPOINTS----*/
+@media screen and (max-width: 1285px) {
+  .principal {
+    max-width: 100%;
+    min-width: 0;
+    height: auto;
+    margin: 0;
+  }
+  .containerreview {
+    height: auto;
+  }
+  .cardreview {
+    min-width: 0;
+    height: auto;
+    margin: 10px;
+  }
+  .reviewItens {
+    padding: 0 5px;
+    height: auto;
+  }
+
+  .textoreview {
+    font-size: 17px;
+    margin: 0;
+  }
+  .rodape p {
+    font-size: 20px;
+  }
+  .cortaconteudo {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  .livre {
+    height: auto;
+    margin: 0 auto;
+    min-width: 0;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .livre .box_historia-mario .historia_p {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 1045px) {
+  .nav-list {
+    gap: 12px;
+    margin: 0;
+  }
+  .nav-list a {
+    font-size: 17px;
+    padding: 0px;
+  }
+
+  .containernoticia {
+    width: 100%;
+    min-width: 0;
+    height: auto;
+    gap: 10px;
+  }
+  .cardnoticia img {
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+  }
+  .titulo {
+    width: 95%;
+    min-width: 0;
+    margin: 10px 0;
+  }
+  .titulo img {
+    animation: none;
+  }
+  .containermain {
+    flex-direction: column-reverse;
+  }
+  .containerlateral {
+    width: 100%;
+  }
+  .livre {
+    width: 95%;
+  }
+  .box_exemplo2 q {
+    font-size: 1.5rem;
+  }
+  .containerreview {
+    width: 100%;
+    /* margin: 10px auto; */
+  }
+}
+@media screen and (max-width: 1030px) {
+  /* .cardreview {
+    width: 100%;
+  } */
+}
+@media screen and (max-width: 900px) {
+  .containernoticiatitulo {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .cardreview {
+    width: 100%;
+  }
+  .textonoticia {
+    font-size: 1.4rem;
+    line-height: 21px;
+    letter-spacing: 1px;
+  }
+
+  .box_exemplo2 {
+    width: 100%;
+    padding: 10px 0;
+  }
+  /*--GAME HOME--*/
+  .box-game_home .box-title {
+    width: 100%;
+    height: 80%;
+  }
+  .box-title .title-jogar {
+    font-size: 25px;
+  }
+  .box-controle {
+    width: 100%;
+    left: 0;
+    padding: 10px;
+  }
+  .img-controle {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 800px) {
+  header {
+    height: 100px;
+  }
+  .menu {
+    display: none;
+  }
+  #btn-menu {
+    display: block;
+    margin-right: 30px;
+  }
+  #logotipo {
+    width: 100%;
+  }
+
+  .menu-mobile.abrir {
+    visibility: visible;
+    height: calc(100vh - 90px);
+  }
+  .livre .artigo-segala {
+    height: auto;
+  }
+  .livre .img-mario_segala {
+    width: 280px;
+    top: 50px;
+    left: 40px;
+  }
+  .small-review,
+  .small-livre {
+    width: 100%;
+    font-size: 16px;
+    display: block;
+    white-space: wrap;
+    text-indent: 0;
+    text-align: justify;
+    padding: 5px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .livre .img_mario-estrela {
+    width: 90%;
+    height: 230px;
+    position: relative;
+  }
+  .livre .artigo-segala {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .livre .introducao_p {
+    margin: 10px auto;
+    padding: 5px 10px;
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 751px) and (max-width: 1135px) {
+  .livre .img_mario-estrela {
+    width: 28%;
+    height: 27%;
+    top: 10px;
+    right: 0;
+  }
+}
+@media screen and (min-width: 701px) and (max-width: 1045px) {
+  .livre .introducao_p {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 1045px) {
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    padding: 0;
+    margin: 5px 0;
+    gap: 1.5rem;
+  }
+  header .headerLogo {
+    width: auto;
+    padding: 0;
+    justify-content: center;
+  }
+  .headerLogo #logotipo {
+    font-size: 30px;
+  }
+
+  .cardnoticia {
+    width: 49%;
+    min-width: 0;
+    height: auto;
+    padding: 10px;
+  }
+  .containeravaliacoes {
+    width: 95%;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: normal;
+  }
+  .cardavaliacoes {
+    width: 33%;
+    height: auto;
+    min-width: 0;
+    margin: 10px 0;
+  }
+  .extra {
+    width: 95%;
+    flex-direction: row;
+  }
+  .extra-titulo {
+    margin: 10px 0;
+    letter-spacing: 10px;
+    font-size: 35px;
+  }
+  .livre .box_historia-mario blockquote {
+    padding: 8px 0;
+    letter-spacing: 1px;
+    flex-wrap: nowrap;
+  }
+  .extra .nav_compra {
+    width: 40%;
+    height: auto;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .reviewItens img {
+    width: 100%;
+    height: 155px;
+  }
+  .tituloreview {
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: 2.3rem;
+    letter-spacing: 1px;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 760px) {
+  .box_exemplo1 img {
+    width: 23px;
+  }
+  .box_exemplo2 q {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  header .headerLogo {
+    width: 100%;
+    padding: 10px 0;
+    justify-content: center;
+  }
+  .menu-mobile {
+    top: 110px;
+  }
+  .headerLogo #logotipo {
+    font-size: 30px;
+  }
+
+  .reviewItens {
+    flex-wrap: wrap;
+  }
+  .reviewItens img {
+    width: 100%;
+    height: 280px;
+    margin: 0 auto;
+  }
+  .containernoticia {
+    gap: 20px;
+  }
+  .cardnoticia {
+    width: 100%;
+    min-width: 0;
+    height: auto;
+    padding: 10px;
+  }
+
+  .containeravaliacoes {
+    width: 95%;
+    margin: 10px auto;
+  }
+  .cardavaliacoes {
+    width: 100%;
+    min-width: 0;
+    height: auto;
+    margin: 10px 0;
+  }
+  .tituloreview {
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 19px;
+  }
+  .textoreview {
+    width: 100%;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    font-size: 19px;
+  }
+
+  .livre .box_historia-mario blockquote {
+    font-size: 25px;
+    text-align: center;
+    padding: 8px 0;
+    letter-spacing: 1px;
+  }
+
+  .extra {
+    height: auto;
+    flex-direction: column;
+    margin: 5px auto;
+  }
+  .extra-titulo {
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin: 10px 0;
+  }
+  .livre .artigo-segala {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .livre .img-mario_segala {
+    width: 280px;
+    top: 50px;
+    left: 40px;
+  }
+  .personagens {
+    height: auto;
+  }
+  .personagens .box-range {
+    height: 170px;
+  }
+  .personagens .box-animation {
+    height: 250px;
+    width: 100%;
+  }
+
+  .box-animation .star {
+    top: 50px;
+  }
+
+  .box-animation .estrelas {
+    top: 70px;
+  }
+
+  .box-animation .fantasma2 {
+    top: 30px;
+    left: 150px;
+  }
+
+  .box-animation .coin {
+    top: 30px;
+  }
+
+  .box-animation .princesa {
+    display: none;
+  }
+  .box-animation .mush {
+    bottom: 60px;
+  }
+
+  .box-animation .pipe {
+    left: 180px;
+  }
+
+  .box-animation .tijolinho-horizontal {
+    left: 130px;
+    bottom: 60px;
+  }
+
+  .extra .nav_compra {
+    margin: 20px auto;
+    width: 90%;
+    height: auto;
+  }
+  .extra .nav_compra label {
+    font-size: 25px;
+    margin: 15px auto;
+  }
+  .extra .nav_compra h2 {
+    font-size: 30px;
+    padding: 10px 0;
+  }
+  .box_itens-compra {
+    width: 100%;
+    height: 80%;
+    gap: 10px;
+  }
+  .box_itens-compra description,
+  p,
+  span,
+  del {
+    font-size: 26px;
+  }
+  .box_itens-compra img {
+    width: 80%;
+    height: 60%;
+    margin: 10px 0;
+  }
+  .box_itens-compra #label-x {
+    width: auto;
+    height: auto;
+    font-size: 35px;
+    top: -15px;
+  }
+
+  .box_botao {
+    width: 100%;
+    height: 20%;
+  }
+
+  .box_botao .botao {
+    width: 90%;
+    margin: 15px auto;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+}

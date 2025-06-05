@@ -1,0 +1,119 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  padding-inline: 16px;
+  width: calc(100% - 20px);
+  position: sticky;
+  top: 0;
+  background-color: #00000099;
+  z-index: 255;
+  backdrop-filter: blur(4px);
+  height: 100px;
+}
+
+/*---LOGO DO HEADER----*/
+.headerLogo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#logotipo {
+  font-family: "Rubik", system-ui;
+  font-weight: 900;
+  font-style: normal;
+  text-decoration: none;
+  color: #dbdbdb;
+  font-size: clamp(2vw, 3vw, 4vh);
+  text-shadow: 0.3vw 0.3vw #00000040;
+  white-space: nowrap;
+  margin-left: 10px;
+}
+
+#logotipo:hover {
+  font-family: "Rubik Glitch", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  color: #dbdbdb;
+}
+#logotipo {
+  font-family: "Rubik", system-ui;
+  font-weight: 900;
+  font-style: normal;
+  text-decoration: none;
+  color: #dbdbdb;
+  font-size: 2rem;
+  text-shadow: 0.3rem 0.3rem #00000040;
+  margin: 0;
+}
+
+#logotipo:hover {
+  font-family: "Rubik Glitch", system-ui;
+  font-weight: 300;
+  font-style: normal;
+  text-decoration: none;
+  color: #dbdbdb;
+  font-size: 2rem;
+}
+.glow {
+  font-size: 3vw;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 4s ease-in-out infinite alternate;
+  -moz-animation: glow 4s ease-in-out infinite alternate;
+  animation: glow 4s cubic-bezier(0.95, 0.05, 0.8, 0.04) infinite alternate;
+}
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 4s ease-in-out infinite alternate;
+  -moz-animation: glow 4s ease-in-out infinite alternate;
+  animation: glow 4s cubic-bezier(0.95, 0.05, 0.8, 0.04) infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #cf0b0b, 0 0 20px #cf0b0b, 0 0 30px #cf0b0b,
+      0 0 40px #cf0b0b, 0 0 50px #cf0b0b, 0 0 60px #cf0b0b, 0 0 70px #cf0b0b;
+  }
+  to {
+    text-shadow: 0 0 20px #dbdbdb, 0 0 30px #cf0b0b, 0 0 40px #cf0b0b,
+      0 0 50px #cf0b0b, 0 0 60px #cf0b0b, 0 0 70px #cf0b0b, 0 0 80px #cf0b0b;
+  }
+}
+/*---MENU CONVENCIONAL--*/
+.menu {
+  max-width: 1280px;
+  height: 70px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+  margin-right: 150px;
+}
+
+.nav-list a {
+  font-size: 18px;
+  color: #fff;
+  padding-block: 16px;
+  text-decoration: none;
+}
+.opcoesUser .btn-sair {
+  color: white;
+  padding: 3px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 1px solid white;
+}
