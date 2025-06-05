@@ -4,7 +4,7 @@
   height: 100%;
   width: 1240px;
   max-width: 1240px;
-  margin: 0 100px;
+  margin: 0 auto;
   min-width: 620px;
   box-shadow: 4px 0px 4px #00000050, -4px 0px 4px #00000050;
 }
