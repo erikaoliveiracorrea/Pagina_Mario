@@ -3,8 +3,9 @@
   height: auto;
   flex-direction: row-reverse;
   display: flex;
+  gap: 15px;
   justify-content: center;
-  flex-wrap: wrap;
+  background-color: #150a22;
 }
 
 .livre {
@@ -24,7 +25,6 @@
 }
 
 .small-livre {
-  white-space: nowrap;
   margin-left: 30px;
 }
 
@@ -36,11 +36,11 @@
 }
 
 .livre .introducao_p {
-  padding: 0 5px;
+  padding: 0 10px;
   color: white;
   font-weight: bold;
   font-family: "Roboto", sans-serif;
-  font-size: 17px;
+  font-size: 19px;
   text-align: justify;
   text-indent: 45px;
 }
@@ -69,11 +69,11 @@
 }
 
 .livre .img_mario-estrela {
-  width: 286px;
-  height: 235px;
+  width: 200px;
+  height: 286px;
   position: absolute;
   top: 10px;
-  right: -40px;
+  right: 0px;
   filter: drop-shadow(9px 0px 10px white);
 }
 
@@ -127,7 +127,7 @@
   font-weight: bold;
   padding: 5px 10px;
   text-align: justify;
-  font-size: 18px;
+  font-size: 19px;
   letter-spacing: 0.6px;
   font-family: "Roboto", sans-serif;
 }

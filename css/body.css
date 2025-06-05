@@ -1,13 +1,11 @@
 * {
-  padding: 0%;
-  margin: 0%;
+  padding: 0;
+  margin: 0;
   font-family: "Roboto";
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
   background-color: #150a22;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
 }

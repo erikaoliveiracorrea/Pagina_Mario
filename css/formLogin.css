@@ -61,7 +61,11 @@
   overflow: hidden;
   transition: transform 0.5s ease, height 0.2s ease;
 }
-
+@media screen and (max-width: 600px) {
+  .wrapper {
+    width: 95%;
+  }
+}
 .wrapper.active-popup {
   transform: scale(1);
 }

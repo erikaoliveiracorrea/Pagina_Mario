@@ -15,6 +15,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  background-color: #150a22;
 }
 
 /* Cards de review */
@@ -81,14 +82,6 @@
   color: #dbdbdb;
 }
 
-.containernoticiatitulo {
-  height: auto;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
 .containernoticia {
   height: 240px;
   width: calc(50% - 20px);
@@ -97,6 +90,15 @@
   flex-wrap: wrap;
   min-width: 400px;
   margin: 10px;
+  background-color: #150a22;
+}
+.containernoticiatitulo {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #150a22;
 }
 
 /* Cards de notícias */

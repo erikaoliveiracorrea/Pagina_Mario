@@ -3,8 +3,8 @@
   .principal {
     max-width: 100%;
     min-width: 0;
-    height: auto;
     margin: 0;
+    height: auto;
   }
   .containerreview {
     height: auto;
@@ -35,17 +35,14 @@
 
   .livre {
     height: auto;
-    margin: 0 auto;
     min-width: 0;
-    margin-bottom: 20px;
+  }
+
+  .cardavaliacoes {
+    height: auto;
   }
 }
 
-@media screen and (max-width: 1100px) {
-  .livre .box_historia-mario .historia_p {
-    font-size: 25px;
-  }
-}
 @media screen and (max-width: 1045px) {
   .nav-list {
     gap: 12px;
@@ -80,9 +77,11 @@
   }
   .containerlateral {
     width: 100%;
+    margin: 0 auto;
   }
   .livre {
     width: 95%;
+    margin: 0 auto;
   }
   .box_exemplo2 q {
     font-size: 1.5rem;
@@ -155,27 +154,16 @@
   .livre .img_mario-estrela {
     width: 90%;
     height: 230px;
+    left: 50%;
+    transform: translate(-50%);
     position: relative;
   }
   .livre .artigo-segala {
     width: 95%;
     margin: 0 auto;
   }
-  .livre .introducao_p {
-    margin: 10px auto;
-    padding: 5px 10px;
-    font-size: 25px;
-  }
 }
 
-@media screen and (min-width: 751px) and (max-width: 1135px) {
-  .livre .img_mario-estrela {
-    width: 28%;
-    height: 27%;
-    top: 10px;
-    right: 0;
-  }
-}
 @media screen and (min-width: 701px) and (max-width: 1045px) {
   .livre .introducao_p {
     font-size: 22px;
@@ -217,7 +205,7 @@
     width: 33%;
     height: auto;
     min-width: 0;
-    margin: 10px 0;
+    margin: 10px auto;
   }
   .extra {
     width: 95%;
@@ -279,14 +267,16 @@
     font-size: 30px;
   }
 
+  .tituloreview {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 19px;
+  }
   .reviewItens {
     gap: 25px;
     flex-wrap: wrap;
   }
-  /* .reviewItens img {
-    width: 100%;
-    height: 280px;
-  } */
+
   .reviewItens .picture_reviewItens {
     width: 100%;
     height: 280px;
@@ -294,6 +284,13 @@
   .picture_reviewItens img {
     width: 100%;
     height: 100%;
+  }
+
+  .textoreview {
+    width: 100%;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    font-size: 19px;
   }
   .containernoticia {
     gap: 20px;
@@ -307,24 +304,7 @@
 
   .containeravaliacoes {
     width: 95%;
-    margin: 10px auto;
-  }
-  .cardavaliacoes {
-    width: 100%;
-    min-width: 0;
-    height: auto;
-    margin: 10px 0;
-  }
-  .tituloreview {
-    padding-bottom: 10px;
-    text-align: center;
-    font-size: 19px;
-  }
-  .textoreview {
-    width: 100%;
-    line-height: normal;
-    letter-spacing: 0.7px;
-    font-size: 19px;
+    margin: 0 auto;
   }
 
   .livre .box_historia-mario blockquote {
@@ -335,14 +315,18 @@
   }
 
   .extra {
+    width: 95%;
     height: auto;
-    flex-direction: column;
-    margin: 5px auto;
   }
+
   .extra-titulo {
     font-size: 30px;
     letter-spacing: 5px;
     margin: 10px 0;
+  }
+  .livre {
+    width: 100%;
+    height: auto;
   }
   .livre .artigo-segala {
     width: 100%;
@@ -363,6 +347,7 @@
     text-align: center;
     white-space: wrap;
   }
+
   .personagens {
     height: auto;
   }
@@ -406,11 +391,12 @@
     left: 130px;
     bottom: 60px;
   }
-
+  /*---PAINEL DE COMPRA------*/
   .extra .nav_compra {
     margin: 20px auto;
-    width: 90%;
+    width: 95%;
     height: auto;
+    border: 1px solid white;
   }
   .extra .nav_compra label {
     font-size: 25px;

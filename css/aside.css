@@ -1,8 +1,9 @@
 /*--ASIDE---*/
 .containerlateral {
-  width: 25%;
+  width: calc(25% - 20px);
   height: auto;
   margin-bottom: 10px;
+  background-color: #150a22;
 }
 /*---SEÇÃO AVALIAÇÕES---*/
 .containeravaliacoes {
@@ -12,13 +13,14 @@
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
+  background-color: #150a22;
 }
 
 .cardavaliacoes {
   background-color: #dbdbdb10;
   height: 120px;
-  width: calc(100% - 20px);
-  margin: 10px auto;
+  width: 100%;
+  margin-bottom: 20px;
   min-width: 160px;
   box-shadow: 2px 4px 4px #00000050;
 }
@@ -76,9 +78,9 @@
 
 /*----LOJA OFICIAL--*/
 .extra {
-  width: 93%;
-  margin: 0 auto;
+  width: 100%;
   padding: 10px;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
