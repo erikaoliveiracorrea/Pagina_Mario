@@ -276,12 +276,12 @@
   }
   header .wrapper .form-box {
     max-height: 95dvh;
-    padding: 10px;
   }
+
   header .wrapper.active .form-box.register {
-    max-height: 95dvh;
-    height: 100%;
+    padding: 5px;
   }
+
   /*----R E V I E W --------------*/
   .tituloreview {
     padding: 10px 0;
@@ -462,5 +462,13 @@
     margin: 15px auto;
     font-size: 20px;
     letter-spacing: 1px;
+  }
+}
+@media screen and (max-width: 320px) {
+  header .wrapper.active .form-box.register {
+    overflow-y: auto;
+  }
+  header .wrapper .form-box {
+    padding: 10px;
   }
 }
