@@ -24,6 +24,16 @@ const wrapper = document.querySelector(".wrapper");
 const loginLink = document.querySelector(".login-link");
 const registerLink = document.querySelector(".register-link");
 const iconClose = document.querySelector(".icon-close");
+const tagBody = document.querySelector("body");
+const togglePopup = document.querySelector(".toggle-popup");
+
+togglePopup.addEventListener("change", () => {
+  if (togglePopup.checked) {
+    tagBody.style.overflow = "hidden";
+    tagBody.style.position = "fixed";
+    tagBody.style.width = "100%";
+  }
+});
 
 registerLink.addEventListener("click", () => {
   wrapper.classList.add("active");
@@ -36,6 +46,9 @@ loginLink.addEventListener("click", () => {
 iconClose.addEventListener("click", () => {
   wrapper.classList.remove("active-popup");
   togglePopup.checked = false;
+  tagBody.style.overflow = "";
+  tagBody.style.position = "";
+  tagBody.style.width = "";
 });
 
 // Validação do Formulário de Cadastro

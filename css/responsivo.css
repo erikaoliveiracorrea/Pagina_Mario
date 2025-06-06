@@ -260,13 +260,29 @@
     padding: 10px 0;
     justify-content: center;
   }
-  .menu-mobile {
+  header .menu-mobile {
     top: 110px;
   }
-  .headerLogo #logotipo {
+  header .headerLogo #logotipo {
     font-size: 30px;
   }
-
+  /*----FORMULÁRIO LOGIN-------*/
+  header .popup-container {
+    padding: 5px;
+  }
+  header .wrapper {
+    width: 95%;
+    max-height: 95dvh;
+  }
+  header .wrapper .form-box {
+    max-height: 95dvh;
+    padding: 10px;
+  }
+  header .wrapper.active .form-box.register {
+    max-height: 95dvh;
+    height: 100%;
+  }
+  /*----R E V I E W --------------*/
   .tituloreview {
     padding: 10px 0;
     text-align: center;
@@ -292,6 +308,7 @@
     letter-spacing: 0.7px;
     font-size: 19px;
   }
+  /*------N O T Í C I A -----------*/
   .containernoticia {
     gap: 20px;
   }
@@ -301,12 +318,12 @@
     height: auto;
     padding: 10px;
   }
-
+  /*----- AVALIAÇÕES ------------*/
   .containeravaliacoes {
     width: 95%;
     margin: 0 auto;
   }
-
+  /*--------SECTION LIVRE----------*/
   .livre .box_historia-mario blockquote {
     font-size: 25px;
     text-align: center;
@@ -347,13 +364,14 @@
     text-align: center;
     white-space: wrap;
   }
-
+  /*--------PERSONAGENS-----*/
   .personagens {
     height: auto;
   }
   .personagens .box-range {
     height: 170px;
   }
+  /*------ANIMAÇÕES --------------*/
   .personagens .box-animation {
     height: 250px;
     width: 100%;

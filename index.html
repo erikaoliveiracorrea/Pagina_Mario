@@ -89,100 +89,101 @@
           />
         </div>
       </div>
-    </header>
-    <input type="checkbox" id="togglePopup" class="toggle-popup" />
+      <!------POPUP DO LOGIN------->
+      <input type="checkbox" id="togglePopup" class="toggle-popup" />
+      <div id="popup" class="popup-container">
+        <div class="wrapper">
+          <span class="icon-close">X</span>
+          <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+              <div class="input-box">
+                <span class="icon"
+                  ><img
+                    src="/img/erika/icons8mensagem-24.webp"
+                    alt="imagem de carta"
+                /></span>
+                <input type="email" required />
+                <label>Email</label>
+              </div>
+              <div class="input-box">
+                <span class="icon"
+                  ><img
+                    src="/img/erika/icons8-lock-24.webp"
+                    alt="imagem de cadeado"
+                /></span>
+                <input type="password" required />
+                <label>Senha</label>
+              </div>
+              <div class="remember-forgot">
+                <label><input type="checkbox" /> Lembre-me</label>
+                <a href="#"> Esqueceu a senha?</a>
+              </div>
 
-    <div id="popup" class="popup-container">
-      <div class="wrapper">
-        <span class="icon-close">X</span>
+              <button type="submit" class="btn" onclick="logar(); return false">
+                Entrar
+              </button>
 
-        <div class="form-box login">
-          <h2>Login</h2>
-          <form action="#">
-            <div class="input-box">
-              <span class="icon"
-                ><img
-                  src="/img/erika/icons8mensagem-24.webp"
-                  alt="imagem de carta"
-              /></span>
-              <input type="email" required />
-              <label>Email</label>
-            </div>
-            <div class="input-box">
-              <span class="icon"
-                ><img
-                  src="/img/erika/icons8-lock-24.webp"
-                  alt="imagem de cadeado"
-              /></span>
-              <input type="password" required />
-              <label>Senha</label>
-            </div>
-            <div class="remember-forgot">
-              <label><input type="checkbox" /> Lembre-me</label>
-              <a href="#"> Esqueceu a senha?</a>
-            </div>
+              <div class="login-register">
+                <p>
+                  Não tem uma conta?<a href="#" class="register-link">
+                    Cadastre-se</a
+                  >
+                </p>
+              </div>
+            </form>
+          </div>
 
-            <button type="submit" class="btn" onclick="logar(); return false">
-              Entrar
-            </button>
-
-            <div class="login-register">
-              <p>
-                Não tem uma conta?<a href="#" class="register-link">
-                  Cadastre-se</a
+          <div class="form-box register">
+            <h2>Cadastro</h2>
+            <form action="#">
+              <div class="input-box">
+                <input type="text" id="username" name="username" />
+                <label for="username">Nome</label>
+              </div>
+              <div class="input-box">
+                <input type="email" id="email" name="email" required />
+                <label>Email</label>
+              </div>
+              <div class="input-box">
+                <legend>Data de nascimento</legend>
+                <br />
+                <input
+                  type="date"
+                  name="data_nascimento"
+                  id="data_nascimento"
+                  class="input"
+                />
+              </div>
+              <div class="input-box">
+                <input type="password" id="senha" name="senha" required />
+                <label>Senha</label>
+              </div>
+              <div class="remember-forgot">
+                <label
+                  ><input type="checkbox" /> Eu aceito os termos e
+                  condições</label
                 >
-              </p>
-            </div>
-          </form>
-        </div>
+              </div>
 
-        <div class="form-box register">
-          <h2>Cadastro</h2>
-          <form action="#">
-            <div class="input-box">
-              <input type="text" id="username" name="username" />
-              <label for="username">Nome</label>
-            </div>
-            <div class="input-box">
-              <input type="email" id="email" name="email" required />
-              <label>Email</label>
-            </div>
-            <div class="input-box">
-              <legend>Data de nascimento</legend>
-              <br />
-              <input
-                type="date"
-                name="data_nascimento"
-                id="data_nascimento"
-                class="input"
-              />
-            </div>
-            <div class="input-box">
-              <input type="password" id="senha" name="senha" required />
-              <label>Senha</label>
-            </div>
-            <div class="remember-forgot">
-              <label
-                ><input type="checkbox" /> Eu aceito os termos e
-                condições</label
+              <button
+                type="submit"
+                class="btn"
+                onclick="cadastro(); return false"
               >
-            </div>
+                Cadastrar
+              </button>
 
-            <button
-              type="submit"
-              class="btn"
-              onclick="cadastro(); return false"
-            >
-              Cadastrar
-            </button>
-
-            <div class="login-register">
-              <p>Já tem uma conta?<a href="#" class="login-link"> Login</a></p>
-            </div>
-          </form>
+              <div class="login-register">
+                <p>
+                  Já tem uma conta?<a href="#" class="login-link"> Login</a>
+                </p>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
-    </div>
+    </header>
     <section class="principal">
       <div class="containerreview">
         <div class="cardreview">
@@ -221,7 +222,7 @@
             <div class="reviewItens">
               <picture class="picture_reviewItens">
                 <source
-                  srcset="/img/erika/Bowser_s-Fury-mobile.jpg"
+                  srcset="/img/erika/Bowser_s-Fury-mobile.webp"
                   media="(max-width: 600px)"
                 />
                 <img

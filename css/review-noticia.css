@@ -1,11 +1,11 @@
 /*--INÍCIO DA PÁG, MÁRIO---*/
 .principal {
-  background-color: #dbdbdb10;
   height: 100%;
   width: 1240px;
   max-width: 1240px;
   margin: 0 auto;
   min-width: 620px;
+  background-color: #dbdbdb10;
   box-shadow: 4px 0px 4px #00000050, -4px 0px 4px #00000050;
 }
 
@@ -15,7 +15,6 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: #150a22;
 }
 
 /* Cards de review */
@@ -90,7 +89,6 @@
   flex-wrap: wrap;
   min-width: 400px;
   margin: 10px;
-  background-color: #150a22;
 }
 .containernoticiatitulo {
   height: auto;
@@ -98,7 +96,6 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  background-color: #150a22;
 }
 
 /* Cards de notícias */
