@@ -373,9 +373,7 @@
     height: 170px;
   }
   /*------ANIMAÇÕES --------------*/
-  .animation {
-    animation: none;
-  }
+
   .btn-game {
     display: none;
   }
