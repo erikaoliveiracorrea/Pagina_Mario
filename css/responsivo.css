@@ -365,6 +365,7 @@
     white-space: wrap;
   }
   /*--------PERSONAGENS-----*/
+
   .personagens {
     height: auto;
   }
@@ -372,6 +373,12 @@
     height: 170px;
   }
   /*------ANIMAÇÕES --------------*/
+  .animation {
+    animation: none;
+  }
+  .btn-game {
+    display: none;
+  }
   .personagens .box-animation {
     height: 250px;
     width: 100%;
